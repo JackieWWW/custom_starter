@@ -15,7 +15,7 @@ app.post('/search', function(req, res) {
   	url: 'https://api.yelp.com/v3/businesses/search',
   	headers: {
   		'User-Agent' : 'request',
-  		'Authorization' : 'Bearer 5xgKODdBpFzzKCBYInEKReDneNFeALm774rL2mjp_RUsyVTxlMhQ4UP2lq6IHG7cNxOvmQVkh4Qqi4gDW8JNCtT_S0Jqzf1JRbfjjrgIHbm05PF3Rf7ZY5Kv3Fc5WnYx'
+  		'Authorization' : //PUT API KEY HERE!!!!!!!!!
   	},
   	qs: {
   		'term' : 'dumplings',
