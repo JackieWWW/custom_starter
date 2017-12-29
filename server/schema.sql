@@ -1,0 +1,13 @@
+DROP DATABASE IF EXISTS faves;
+CREATE DATABASE faves;
+
+USE faves;
+
+CREATE TABLE dumps (
+	id int NOT NULL AUTO_INCREMENT,
+	name VARCHAR(100) NOT NULL,
+	image_url VARCHAR(255) NOT NULL,
+	phone_number VARCHAR(100) NOT NULL,
+	yelp_url VARCHAR(255) NOT NULL,
+	PRIMARY KEY (id)
+);
